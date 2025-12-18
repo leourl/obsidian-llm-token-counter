@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+# Ignorar arquivos de build na raiz (boa prática: usar Releases do GitHub para binários)
+main.js
+styles.css
+# Manter manifest.json versionado

@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-llm-token-counter",
+	"name": "LLM Token Counter",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A lightweight token counter for LLMs (GPT-4, Claude, Gemini) displayed in the status bar.",
+	"author": "Leonardo",
+	"authorUrl": "https://github.com/leourl",
+	"isDesktopOnly": false
+}

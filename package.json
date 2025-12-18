@@ -1,0 +1,34 @@
+{
+	"name": "obsidian-llm-token-counter",
+	"version": "1.0.0",
+	"description": "Obsidian plugin to count LLM tokens in the status bar.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "node esbuild.config.mjs production",
+		"version": "node version-bump.mjs"
+	},
+	"keywords": [
+		"obsidian",
+		"obsidian-plugin",
+		"llm",
+		"tokens",
+		"gpt-4",
+		"claude"
+	],
+	"author": "Leonardo",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.21",
+		"@typescript-eslint/eslint-plugin": "5.2.0",
+		"@typescript-eslint/parser": "5.2.0",
+		"builtin-modules": "3.2.0",
+		"esbuild": "0.14.14",
+		"obsidian": "latest",
+		"tslib": "2.3.1",
+		"typescript": "4.5.4"
+	},
+	"dependencies": {
+		"js-tiktoken": "^1.0.12"
+	}
+}
