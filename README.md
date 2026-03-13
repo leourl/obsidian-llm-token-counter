@@ -6,6 +6,8 @@ A lightweight, performance-focused Obsidian plugin that displays the estimated t
 
 Designed to be unobtrusive and efficient, it helps you manage context windows before sending your notes to AI tools.
 
+![Obsidian LLM Token Counter Demo](https://i.imgur.com/OLYzNFG.gif)
+
 ## ✨ Features
 
 - **🚀 Zero Lag:** Uses a debounced update strategy (updates 500ms after you stop typing) to ensure your typing experience remains buttery smooth, even in large files.
